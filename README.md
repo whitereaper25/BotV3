@@ -65,7 +65,7 @@ Install the dependencies:
 run the Whatsapp bot
 
 ```bash
-> python start.py
+> node index
 ```
 after running it you need to scan the qr
 
