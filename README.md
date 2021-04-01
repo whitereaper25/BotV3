@@ -25,10 +25,7 @@
 </P>
 
 ### UPDATE
-- [Fix Bug]
-- [trigger]
-- [gay]
-- [nulis2]
+- [Fix Error]
 
 ## Contact
 
@@ -270,5 +267,6 @@ after running it you need to scan the qr
 ## 🙏 Big Special Thanks To
 
 * [`MrDevil`](https://github.com/adimas999) 
-* [`Mhankbarbar`](https://github.com/MhankBarBar) 
+* [`MhankBarBar`](https://github.com/MhankBarBar) 
 * [`NazwaS`](https://github.com/NazwaS)
+* [`LOL Human`](http://lolhuman.herokuapp.com)
