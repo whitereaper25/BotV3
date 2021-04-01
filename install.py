@@ -15,7 +15,6 @@ print("""
       ██║░░██║██╔══██║██╔══██╗██╔═██╗░
       ██████╔╝██║░░██║██║░░██║██║░╚██╗
       ╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
-
       ██████╗░░█████╗░████████╗
       ██╔══██╗██╔══██╗╚══██╔══╝
       ██████╦╝██║░░██║░░░██║░░░
@@ -38,13 +37,9 @@ os.system("pkg install ffmpeg -y")
 os.system("pkg install wget -y")
 os.system("pkg install tesseract -y")
 os.system("bash install.sh")
-os.system("npm install -g npm")
 os.system("npm install --dev")
-os.system("npm audit fix")
 os.system("npm i imgbb-uploader")
-os.system("npm cache clean -f")
-os.system("npm i got")
 m('\x1b[00m\033[041m Memulai Whatsapp Bot...  \033[00m')
 os.system("clear")
-os.system("python start.py")
+os.system("node index")
 m("DONE")
