@@ -26,6 +26,7 @@
 
 ### UPDATE
 - [Fix Error]
+- [Free ApiKey]
 
 ## Contact
 
