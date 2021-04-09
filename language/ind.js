@@ -5,7 +5,7 @@ exports.wrongf = () => {
 }
 
 exports.noregis = () => {
-	return`*「 BELUM DAFTAR 」*\n\n*cara daftar ${prefix}daftar nama|umur* \n*contoh ${prefix}daftar Riu|17*`
+	return`*「 DATA REGISTER 」*\n\n*cara daftar ${prefix}daftar NAME|AGE* \n*contoh ${prefix}daftar Riu|17*`
 }
 
 exports.rediregis = () => {
@@ -13,5 +13,5 @@ exports.rediregis = () => {
 }
 
 exports.registered = (namaUser, umurUser, serialUser, time, sender) => {
-	return`*「 DATA NEGARA 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱nama\n┗⊱${namaUser}\n┏━⊱nomer\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱umur\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
+	return`*「 DATA REGISTERED SUCCESSFULLY 」*\n\nkamu sudah terdaftar dengan data \n\n┏━⊱NAME\n┗⊱${namaUser}\n┏━⊱NUMBER\n┗⊱wa.me/${sender.split("@")[0]}\n┏━⊱AGE\n┗⊱${umurUser}\n┏━⊱waktu pendaftaran\n┗⊱${time}\n\n┏━❉ *NS* ❉━\n┣⊱${serialUser}\n┗⊱NOTE : jangan sampai lupa nomer ini karena ini penting:v`
 }
