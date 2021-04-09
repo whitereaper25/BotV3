@@ -24,15 +24,15 @@ const { mimeTypes } = require('file-type')
 const { ind } = require('./language')
 const vcard = 'BEGIN:VCARD\n'  // Jangan di ubah biar ga error
             + 'VERSION:3.0\n'  // Jangan di ubah biar ga error
-            + 'FN:MRDEVILS\n'  // Ganti jadi namamu
-            + 'ORG: MRDEVILS;\n'  // Ganti jadi namamu/Botmu
-            + 'TEL;type=CELL;type=VOICE;waid=6285939888897:+6285939888897\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
+            + 'FN:REAPER KING\n'  // Ganti jadi namamu
+            + 'ORG: SOUL REAPERs;\n'  // Ganti jadi namamu/Botmu
+            + 'TEL;type=CELL;type=VOICE;waid=919080896537:+919080896537\n'  // Ganti jadi nomormu, tapi jangan ubah polanya
             + 'END:VCARD' // jangan di ubah
 //Setingan\\
 apikey = 'MrSomething404' 
 prefix = '#' 
-owner = '6285939888897' 
-cr = 'LoL-Human Team'
+owner = '919080896537' 
+cr = 'REAPERS TEAM'
 //Setingan\\
 //------LOAD-------\\
 const premium = JSON.parse(fs.readFileSync('./database/user/premium.json'))
